@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "npm:@isaacs/ttlcache@*": "2.1.5",
     "npm:discord.js@14": "14.26.4"
   },
   "npm": {
@@ -61,6 +62,9 @@
         "tslib",
         "ws"
       ]
+    },
+    "@isaacs/ttlcache@2.1.5": {
+      "integrity": "sha512-VwGZqqjAWPICTmxUZnbpEfO60LhPWzquik+bmyXGY7pYRn6diEvCI5i6Ca+J6o2y4vS73HrpuMTo2dOvUevH8w=="
     },
     "@sapphire/async-queue@1.5.5": {
       "integrity": "sha512-cvGzxbba6sav2zZkH8GPf2oGk9yYoD5qrNWdu9fRehifgnFZJMV+nuy2nON2roRO4yQQ+v7MK/Pktl/HgfsUXg=="

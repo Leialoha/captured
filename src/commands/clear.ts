@@ -12,7 +12,7 @@ export default {
 
         const [fetchMsgsErr, messagesObj] = await catchErrorTyped(channel.messages.fetch({ limit }));
         if (fetchMsgsErr) return console.error(fetchMsgsErr);
-    
-        messagesObj.forEach(msg => safeExecute(msg.delete()));
+
+        safeExecute(channel.bulkDelete(messagesObj.map(m => m.id)));
     }
 } satisfies Command;
